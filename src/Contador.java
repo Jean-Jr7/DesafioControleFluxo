@@ -29,6 +29,9 @@ public class Contador {
             System.out.println("Imprimindo o numero : " + (parametroUm + i));
         }
     }
+
+    public static class ParametrosInvalidosException extends Throwable {
+    }
 }
 
 
